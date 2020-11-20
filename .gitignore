@@ -3,3 +3,4 @@ target/
 #рабочий дистрибутив maven нужной версии
 .mvn/wrapper/maven-wrapper
 mvnw
+pom.xml.versionsBackup
