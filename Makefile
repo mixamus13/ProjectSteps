@@ -1,19 +1,16 @@
 .DEFAULT_GOAL := build-run
 
-compile-run: build run
-
-#compile: clean
-#	mkdir -p ./target/classes
-#	javac -d ./target/classes ./src/main/java/games/Slot.java
+build-run: build run
 
 run:
-	jar cfe ./target/projectsteps.jar games.Slot -C ./target/classes .
+	java -cp ./target/classes games.Slot
 
 clean:
 	rm -rf ./target
 
-build: #compile
-	jar cfe ./target/projectsteps.jar games.Slot -C ./target/classes .
+build: clean
+	mkdir -p ./target/classes
+	javac -d ./target/classes ./src/main/java/games/Slot.java
 
 update:
 	./mvnw versions:update-properties

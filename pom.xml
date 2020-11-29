@@ -54,7 +54,20 @@
 
         <!-- TEST (JUnit 5 & Mockito) -->
 
+        <dependency>
+            <groupId>com.github.mixamus13</groupId>
+            <artifactId>ProjectSteps</artifactId>
+            <version>Tag</version>
+        </dependency>
+
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <build>
 
