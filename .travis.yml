@@ -3,4 +3,4 @@ jdk:
   - opengdk11
 cache:
   directories:
-    - $home/.h2
+    - /Users/max/.m2
