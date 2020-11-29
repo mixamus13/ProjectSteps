@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - opengdk11
+cache:
+  directories:
+    - $home/.h2
