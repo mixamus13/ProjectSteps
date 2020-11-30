@@ -1,6 +1,1 @@
 language: java
-jdk:
-  - opengdk11
-cache:
-  directories:
-    - /Users/max/.m2
